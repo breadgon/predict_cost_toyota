@@ -51,7 +51,7 @@ if submit:
     float(mpg), 
     float(engSize)]])
   st.write("Price Category:")
-  st.write(f"${hasil_akhir[0]}")
+  st.write(hasil_akhir[0])
 
 # ngrok_tunnel = ngrok.connect(8501)
 # print('Public URL:', ngrok_tunnel.public_url)
